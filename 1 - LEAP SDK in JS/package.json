@@ -1,0 +1,15 @@
+{
+  "name": "js-leap-sdk",
+  "version": "1.0.0",
+  "description": "A prototype, testing the LEAP Motion in Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "author": "Casper Pijnenburg",
+  "license": "ISC",
+  "dependencies": {
+    "leapjs": "^0.6.4"
+  }
+}

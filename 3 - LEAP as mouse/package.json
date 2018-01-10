@@ -1,0 +1,25 @@
+{
+  "name": "leap-as-mouse",
+  "version": "1.0.0",
+  "description": "A prototype, testing the mouse-control capabillities of the Leap Motion.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder --dir",
+    "rebuild": "npm rebuild --runtime=electron --target=1.7.10 --disturl=https://atom.io/download/atom-shell --abi=51"
+  },
+  "author": "Casper Pijnenburg",
+  "license": "ISC",
+  "dependencies": {
+    "leapjs": "^0.6.4",
+    "robotjs": "^0.4.7"
+  },
+  "build": {
+    "appId": "electron.demo",
+    "win": {}
+  },
+  "devDependencies": {
+    "electron-builder": "^19.49.2"
+  }
+}
